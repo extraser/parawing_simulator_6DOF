@@ -1,21 +1,29 @@
-%% PARAMETERS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Parafoil physical parameters                                            %
+% Authors:  Stefano Farì (stefano.farì@mail.polimi.it)                    %
+%           Davide Grande (davide.grande@mail.polimi.it)                  %  
+%           Mattia Giurato (mattia.giurato@polimi.it)                     %
+% Date: 13/12/2016                                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clearvars
 close all
 
+%% General constants
 gravity = 9.81;
 
 %% Mass
-mass_parachute = 13;                                                        %[kg]
-mass_body = 135;
-mass = mass_parachute + mass_body;                   
-inertia_tensor = [2.5  0   0 ;
+mass_parachute = 13;                                                       %[kg]
+mass_body = 135;                                                           %[kg]
+mass = mass_parachute + mass_body;                                         %[kg]
+inertia_tensor = [2.5  0   0 ;                                             %[kg*m^2]
                    0   2.5 0 ;
                    0   0   1];
   
-inertia_tensor_inv = inertia_tensor\eye(3);
+inertia_tensor_inv = inertia_tensor\eye(3);                                %[kg*m^2]
   
-surface_parachute = 21;
-surface_body = 0.5;
+surface_parachute = 21;                                                    %[m^2]
+surface_body = 0.5;                                                        %[m^2]
 
 %% Kinematic chain
 Xgp = [0, 0, -7.5]';
