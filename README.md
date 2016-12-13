@@ -2,9 +2,9 @@
 6 DOF simulator of a controlled parafoil for the re-entry of a sounding rocket.
 
 ## Authors
-* *Stefano Farì/*	stefano.farì@mail.polimi.it
-* *Davide Grande/*	davide.grande@mail.polimi.it
-* *Mattia Giurato/*	mattia.giurato@polimi.it
+* *Stefano Farì*	stefano.farì@mail.polimi.it
+* *Davide Grande*	davide.grande@mail.polimi.it
+* *Mattia Giurato*	mattia.giurato@polimi.it
 
 ## Instructions
 Include the folder (and its subfolders) "parafoil_simulator_6DOF" to the MATLAB path.
