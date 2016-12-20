@@ -11,8 +11,8 @@ close all
 clc
     
 %% Launch SIMULATOR
-simulation_time = 20;
-initial_position = [0 0 -100]';
+simulation_time = 150;
+initial_position = [0 0 -1000]';
 
 sim Simulator_6DOF
 
@@ -38,7 +38,7 @@ ylabel('[m/s]')
 legend('u', 'v', 'w')
 
 figure('name','ANGULAR SPEED_BODY')
-plot(time, ang_rates_body * rad2deg);
+plot(time, ang_rates_body * radTodeg);
 grid minor
 xlabel('[s]')
 ylabel('[deg/s]')
@@ -46,10 +46,18 @@ legend('p', 'q', 'r')
 
 figure('name','ATTITUDE_EARTH')
 hold on;
-plot(time, attitude * rad2deg);
+plot(time, attitude * radTodeg);
 grid minor
 xlabel('[s]')
 ylabel('[deg]')
 legend('R', 'P', 'Y')
+
+figure('name','TRAJECTORY')
+plot3(pos_ned(:,1), pos_ned(:,2), -pos_ned(:,3));
+grid minor
+xlabel('[m]')
+ylabel('[m]')
+zlabel('[m]')
+title('Parachute descent')
 
 %% END OF CODE
