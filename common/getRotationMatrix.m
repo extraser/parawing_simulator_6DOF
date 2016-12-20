@@ -16,7 +16,7 @@ switch axis
     case 'y'
         R = [C 0 -S ;
              0 1  0 ;
-             C 0  C];
+             S 0  C];
     case 'z'
         R = [ C S 0 ;
              -S C 0 ;
@@ -26,4 +26,3 @@ end
 rotationalMatrix = R;
 
 end
-
