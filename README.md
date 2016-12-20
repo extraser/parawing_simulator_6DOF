@@ -8,6 +8,7 @@
 
 ## Instructions
 Include the folder (and its subfolders) "parafoil_simulator_6DOF" to the MATLAB path.
+Run "main.m".
 
 ## Structure
 * *bibliography/*	contains the documents listed as reerences
