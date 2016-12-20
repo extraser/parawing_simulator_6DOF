@@ -4,5 +4,6 @@ html
 *_grt_rtw
 
 #Autosave file
+*.autosave
 *.asv
 *~
