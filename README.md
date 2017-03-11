@@ -2,7 +2,7 @@
 6 DOF simulator of a controlled parafoil for the re-entry of a sounding rocket.
 
 ## Authors
-* *Stefano Farì*	stefano.fari@mail.polimi.it
+* *Stefano Fari'*	stefano.fari@mail.polimi.it
 * *Davide Grande*	davide.grande@mail.polimi.it
 * *Mattia Giurato*	mattia.giurato@polimi.it
 

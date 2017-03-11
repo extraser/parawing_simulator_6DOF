@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parafoil physical parameters                                            %
-% Authors:  Stefano Farì (stefano.fari@mail.polimi.it)                    %
-%           Davide Grande (davide.grande@mail.polimi.it)                  %  
+% Authors:  Stefano Fari' (stefano.fari@mail.polimi.it)                    %
+%           Davide Grande (davide.grande@mail.polimi.it)                  %
 %           Mattia Giurato (mattia.giurato@polimi.it)                     %
 % Date: 13/12/2016                                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -20,6 +20,9 @@ b = 7;                                                                     %[m]
 c = 3;                                                                     %[m]
 t = 0.3;                                                                   %[m]
 
+S_parachute = 21;                                                          %[m^2]
+S_payload = 0.5;                                                           %[m^2]
+
 %% Mass
 mass_parachute = 13;                                                       %[kg]
 mass_body = 135;                                                           %[kg]
@@ -29,26 +32,27 @@ mass_matrix_inv = mass_matrix\eye(3);
 inertia_tensor = [2.5  0   0 ;                                             %[kg*m^2]
                    0   2.5 0 ;
                    0   0   1];
-  
+
 inertia_tensor_inv = inertia_tensor\eye(3);
-  
-S_parachute = 21;                                                          %[m^2]
-S_payload = 0.5;                                                           %[m^2]
 
 %% Aerodynamics coefficients
-CD_0_parachute = 0.15;
-CD_alpha_parachute = 1;
 CL_0_parachute = 0.4;
 CL_alpha_parachute = 2;
+
+CD_0_parachute = 0.15;
+CD_alpha_parachute = 1;
+
 CD_0_payload = 0.4;
 CD_alpha_payload = 2;
 
 Cl_p = -0.1;
-Cl_phi = -0.05; 
 Cm_q = -2;
+Cn_r = -0.07;
+
+Cl_beta = -0.05; 
+
 Cm_0 = 0.018; 
 Cm_alpha = -0.2;
-Cn_r = -0.07;
 
 CL_dalpha = 0.0001;
 CD_dalpha = 0.0001;

@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parafoil simulator                                                      %
-% Authors:  Stefano Farì (stefano.fari@mail.polimi.it)                    %
+% Authors:  Stefano Fari' (stefano.fari@mail.polimi.it)                    %
 %           Davide Grande (davide.grande@mail.polimi.it)                  %  
 %           Mattia Giurato (mattia.giurato@polimi.it)                     %
 % Date: 19/12/2016                                                        %
