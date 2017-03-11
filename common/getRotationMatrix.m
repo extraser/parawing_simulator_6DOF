@@ -1,5 +1,5 @@
 function [ rotationalMatrix ] = getRotationMatrix( axis, angle )
-%getRotationMatrix Returns the rotation matrix of "angle" around "axis".
+%getRotationMatrix returns the rotation matrix of "angle" around "axis".
 %
 %   [ rotationalMatrix ] = getRotationMatrix( axis, angle )
 %

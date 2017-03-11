@@ -1,5 +1,5 @@
 function [ rotationMatrix ] = getEarthToBodyMatrix( roll, pitch, yaw )
-%getEarthToBodyMatrix Returns the rotation matrix in order to rotate a 
+%getEarthToBodyMatrix returns the rotation matrix in order to rotate a 
 %vector from the Earth frame to the body one
 %
 %   [ rotationMatrix ] = getEarthToBodyMatrix( roll, pitch, yaw )
@@ -12,4 +12,3 @@ Rz = getRotationMatrix( 'z', yaw );
 rotationMatrix = Rx * Ry * Rz;
 
 end
-

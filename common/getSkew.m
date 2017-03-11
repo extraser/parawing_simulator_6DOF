@@ -1,5 +1,5 @@
 function [ skew ] = getSkew( vector )
-%getSkew Returns the skew symmetric matrix given a 3-dimensional vector
+%getSkew returns the skew symmetric matrix given a 3-dimensional vector
 %
 %   [ skew ] = getSkew( vector )
 %
@@ -13,4 +13,3 @@ skew = [     0     -vector_3  vector_2  ;
          -vector_2  vector_1     0     ];
 
 end
-
