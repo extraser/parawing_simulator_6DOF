@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parafoil physical parameters                                            %
 % Authors:  Stefano Fari' (stefano.fari@mail.polimi.it)                   %
-%           Davide Grande (davide.grande@mail.polimi.it)                  %
+%           Davide Grande (davide1.grande@mail.polimi.it)                 %
 %           Mattia Giurato (mattia.giurato@polimi.it)                     %
 % Date: 13/12/2016                                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
