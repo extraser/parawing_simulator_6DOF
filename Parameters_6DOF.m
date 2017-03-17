@@ -36,8 +36,9 @@ inertia_tensor = [2.5  0   0 ;                                             %[kg*
 inertia_tensor_inv = inertia_tensor\eye(3);
 
 %% Aerodynamics coefficients
+% Parameters of AVL (Ahmed)
 CL_0_parachute = 0.4;
-CL_alpha_parachute = 2;
+CL_alpha_parachute = 2.7;
 
 CD_0_parachute = 0.15;
 CD_alpha_parachute = 1;
@@ -45,11 +46,11 @@ CD_alpha_parachute = 1;
 CD_0_payload = 0.4;
 CD_alpha_payload = 2;
 
-Cl_p = -0.1;
-Cm_q = -2;
-Cn_r = -0.07;
+Cl_p = -0.21;
+Cm_q = -1.92;
+Cn_r = -0.02;
 
-Cl_beta = -0.05; 
+Cl_beta = -0.13; 
 
 Cm_0 = 0.018; 
 Cm_alpha = -0.2;
