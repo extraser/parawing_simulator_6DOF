@@ -16,11 +16,11 @@ degToRad = pi/180;
 X_gp = [0, 0, -7.5]';                                                      %[m]
 X_gb = [0, 0, 0.5]';                                                       %[m]
 
-b = 7;                                                                     %[m]
-c = 3;                                                                     %[m]
+b = 6.94;                                                                     %[m]
+c = 4.3;                                                                     %[m]
 t = 0.3;                                                                   %[m]
 
-S_parachute = 21;                                                          %[m^2]
+S_parachute = 16.7;                                                          %[m^2]
 S_payload = 0.5;                                                           %[m^2]
 
 %% Mass
@@ -36,24 +36,24 @@ inertia_tensor = [2.5  0   0 ;                                             %[kg*
 inertia_tensor_inv = inertia_tensor\eye(3);
 
 %% Aerodynamics coefficients
-% Parameters of AVL (Ahmed)
-CL_0_parachute = 0.4;
-CL_alpha_parachute = 2.7;
+% Parameters of Rogallo as found by AVL (Ahmed)
+CL_0_parachute = 2.68;
+CL_alpha_parachute = 2.12;
 
-CD_0_parachute = 0.15;
+CD_0_parachute = 0.75;
 CD_alpha_parachute = 1;
 
 CD_0_payload = 0.4;
 CD_alpha_payload = 2;
 
-Cl_p = -0.21;
-Cm_q = -1.92;
+Cl_p = -0.13;
+Cm_q = -0.42;
 Cn_r = -0.02;
 
-Cl_beta = -0.13; 
+Cl_beta = -0.176; 
 
-Cm_0 = 0.018; 
-Cm_alpha = -0.2;
+Cm_0 = -0.86; 
+Cm_alpha = -0.37;
 
 CL_dalpha = 0.0001;
 CD_dalpha = 0.0001;
