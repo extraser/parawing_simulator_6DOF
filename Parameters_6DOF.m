@@ -37,23 +37,29 @@ inertia_tensor_inv = inertia_tensor\eye(3);
 
 %% Aerodynamics coefficients
 % Parameters of Rogallo as found by AVL (Ahmed)
-CL_0_parachute = 2.68;
-CL_alpha_parachute = 2.12;
+CL_0_parachute = 2.68; % AVL
+CL_alpha_parachute = 2.12; % AVL
 
-CD_0_parachute = 0.75;
-CD_alpha_parachute = 1;
+CD_0_parachute = 0.75; % AVL
+CD_alpha_parachute = 1.69; % AVL
 
 CD_0_payload = 0.4;
 CD_alpha_payload = 2;
 
-Cl_p = -0.13;
-Cm_q = -0.42;
-Cn_r = -0.02;
+Cl_p = -0.13; % AVL
+Cm_q = -0.42; % AVL
+Cn_r = -0.02; % AVL
+Cl_r = 0.433; % AVL
+Cn_p = -0.283; % AVL
+Cy_p = 0.672; % AVL
+Cy_r = -0.221; % AVL
 
-Cl_beta = -0.176; 
+Cl_beta = -0.176; % AVL
+Cy_beta = -0.166; % AVL
+Cn_beta = 0.0016; % AVL (Directional instability)
 
-Cm_0 = -0.86; 
-Cm_alpha = -0.37;
+Cm_0 = -0.86; % AVL
+Cm_alpha = -0.37; % AVL
 
 CL_dalpha = 0.0001;
 CD_dalpha = 0.0001;
