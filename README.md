@@ -1,5 +1,5 @@
-# parafoil_simulator_6DOF
-6 DOF simulator of a controlled parafoil for the re-entry of a sounding rocket.
+# parawing_simulator_6DOF
+6 DOF simulator of a controlled parawing for the re-entry of a sounding rocket.
 
 ## Authors
 * *Stefano Fari'*	stefano.fari@mail.polimi.it
@@ -7,7 +7,7 @@
 * *Mattia Giurato*	mattia.giurato@polimi.it
 
 ## Instructions
-Include the folder (and its subfolders) "parafoil_simulator_6DOF" to the MATLAB path and run "main.m".
+Include the folder (and its subfolders) "parawing_simulator_6DOF" to the MATLAB path and run "main.m".
 
 ## Structure
 * *bibliography/* contains the documents listed as references
