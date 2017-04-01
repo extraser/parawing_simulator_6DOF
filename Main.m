@@ -1,5 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Parafoil simulator                                                      %
+wi%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Parawing simulator                                                      %
 % Authors:  Stefano Fari' (stefano.fari@mail.polimi.it)                   %
 %           Davide Grande (davide1.grande@mail.polimi.it)                 %  
 %           Mattia Giurato (mattia.giurato@polimi.it)                     %
