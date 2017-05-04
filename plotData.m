@@ -30,7 +30,7 @@ ylabel('[m/s]')
 legend('u', 'v', 'w')
 
 subplot(2,2,3)
-plot(time, ang_rates_body * radTodeg);
+plot(time, rad2deg(ang_rates_body));
 grid minor
 xlabel('[s]')
 ylabel('[deg/s]')
@@ -38,7 +38,7 @@ legend('p', 'q', 'r')
 
 subplot(2,2,4)
 hold on;
-plot(time, attitude * radTodeg);
+plot(time, rad2deg(attitude));
 grid minor
 xlabel('[s]')
 ylabel('[deg]')
